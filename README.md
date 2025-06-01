@@ -1,13 +1,15 @@
-# home-credit-default-risk
+# ml-supervised-classification-home-credit-risk
 
+```bash
+export CONDA_ENV=ml-supervised-classification-home-credit-risk
 
-```
-## Set Up Analysis environment
-conda create -n home-credit-default-risk python=3.10
-conda activate home-credit-default-risk
+# Create and activate a new conda environment
+conda create -n $CONDA_ENV python=3.10
+conda activate $CONDA_ENV
 
-pip install jupyterlab pandas numpy lightgbm matplotlib seaborn scikit-learn shap
+# Install required Python packages
+pip install -r requirements.txt
 
-
+# Start notetebook
 jupyter lab
 ```
